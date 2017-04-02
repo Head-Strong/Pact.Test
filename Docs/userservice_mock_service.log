@@ -1,0 +1,118 @@
+﻿2017-04-02 17:23:34.057 +05:30 [Info] Started http://localhost:1234
+2017-04-02 17:23:34.182 +05:30 [Info] Cleared interactions
+2017-04-02 17:23:34.197 +05:30 [Info] Stopped http://localhost:1234
+2017-04-02 17:23:34.213 +05:30 [Info] Started http://localhost:1234
+2017-04-02 17:23:34.213 +05:30 [Info] Cleared interactions
+2017-04-02 17:23:34.213 +05:30 [Info] Stopped http://localhost:1234
+2017-04-02 17:23:34.229 +05:30 [Info] Started http://localhost:1234
+2017-04-02 17:23:34.229 +05:30 [Info] Cleared interactions
+2017-04-02 17:23:34.229 +05:30 [Info] Stopped http://localhost:1234
+2017-04-02 17:23:34.229 +05:30 [Info] Started http://localhost:1234
+2017-04-02 17:23:34.229 +05:30 [Info] Cleared interactions
+2017-04-02 17:23:34.619 +05:30 [Info] Test context Program.Main
+2017-04-02 17:23:34.729 +05:30 [Info] Registered expected interaction GET /user/1
+2017-04-02 17:23:34.744 +05:30 [Debug] {
+  "description": "A GET request to retrieve the user",
+  "provider_state": "Get user with id '1'",
+  "request": {
+    "method": "get",
+    "path": "/user/1",
+    "headers": {
+      "Accept": "application/json"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "body": {
+      "id": 1,
+      "firstName": "Aditya",
+      "lastName": "Magotra"
+    }
+  }
+}
+2017-04-02 17:23:34.760 +05:30 [Info] Received request GET /user/1
+2017-04-02 17:23:34.760 +05:30 [Debug] {
+  "method": "get",
+  "path": "/user/1",
+  "headers": {
+    "Accept": "application/json",
+    "Host": "localhost:1234"
+  }
+}
+2017-04-02 17:23:34.791 +05:30 [Info] Found matching response for GET /user/1
+2017-04-02 17:23:34.791 +05:30 [Debug] {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json; charset=utf-8"
+  },
+  "body": {
+    "id": 1,
+    "firstName": "Aditya",
+    "lastName": "Magotra"
+  }
+}
+2017-04-02 17:23:34.854 +05:30 [Info] Verifying - interactions matched
+2017-04-02 17:23:34.885 +05:30 [Info] Cleared interactions
+2017-04-02 17:23:34.885 +05:30 [Info] Stopped http://localhost:1234
+2017-04-02 17:32:28.824 +05:30 [Info] Started http://localhost:1234
+2017-04-02 17:32:28.919 +05:30 [Info] Cleared interactions
+2017-04-02 17:32:28.950 +05:30 [Info] Stopped http://localhost:1234
+2017-04-02 17:32:28.950 +05:30 [Info] Started http://localhost:1234
+2017-04-02 17:32:28.966 +05:30 [Info] Cleared interactions
+2017-04-02 17:32:28.966 +05:30 [Info] Stopped http://localhost:1234
+2017-04-02 17:32:28.966 +05:30 [Info] Started http://localhost:1234
+2017-04-02 17:32:28.966 +05:30 [Info] Cleared interactions
+2017-04-02 17:32:28.966 +05:30 [Info] Stopped http://localhost:1234
+2017-04-02 17:32:28.982 +05:30 [Info] Started http://localhost:1234
+2017-04-02 17:32:28.982 +05:30 [Info] Cleared interactions
+2017-04-02 17:32:29.372 +05:30 [Info] Test context Program.Main
+2017-04-02 17:32:29.482 +05:30 [Info] Registered expected interaction GET /user/1
+2017-04-02 17:32:29.497 +05:30 [Debug] {
+  "description": "A GET request to retrieve the user",
+  "provider_state": "Get user with id '1'",
+  "request": {
+    "method": "get",
+    "path": "/user/1",
+    "headers": {
+      "Accept": "application/json"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "body": {
+      "id": 1,
+      "firstName": "Aditya",
+      "lastName": "Magotra"
+    }
+  }
+}
+2017-04-02 17:32:29.513 +05:30 [Info] Received request GET /user/1
+2017-04-02 17:32:29.513 +05:30 [Debug] {
+  "method": "get",
+  "path": "/user/1",
+  "headers": {
+    "Accept": "application/json",
+    "Host": "localhost:1234"
+  }
+}
+2017-04-02 17:32:29.544 +05:30 [Info] Found matching response for GET /user/1
+2017-04-02 17:32:29.544 +05:30 [Debug] {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json; charset=utf-8"
+  },
+  "body": {
+    "id": 1,
+    "firstName": "Aditya",
+    "lastName": "Magotra"
+  }
+}
+2017-04-02 17:32:29.591 +05:30 [Info] Verifying - interactions matched
+2017-04-02 17:32:29.622 +05:30 [Info] Cleared interactions
+2017-04-02 17:32:29.638 +05:30 [Info] Stopped http://localhost:1234

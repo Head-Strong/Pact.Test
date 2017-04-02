@@ -35,6 +35,7 @@ namespace Provider.Test
             outputter.Should().NotBeNull();
             outputter.Output.Should().NotBeNullOrWhiteSpace();
             outputter.Output.Should().Contain(string.Format("Verifying a Pact between {0} and {1}", ClientName, ProviderName));
+            outputter.Output.Should().Contain("status code 200");
             System.Console.ReadLine();
         }
 

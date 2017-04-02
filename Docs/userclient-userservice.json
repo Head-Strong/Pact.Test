@@ -1,0 +1,35 @@
+{
+  "provider": {
+    "name": "Userservice"
+  },
+  "consumer": {
+    "name": "Userclient"
+  },
+  "interactions": [
+    {
+      "description": "A GET request to retrieve the user",
+      "provider_state": "Get user with id '1'",
+      "request": {
+        "method": "get",
+        "path": "/user/1",
+        "headers": {
+          "Accept": "application/json"
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json; charset=utf-8"
+        },
+        "body": {
+          "id": 1,
+          "firstName": "Aditya",
+          "lastName": "Magotra"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecificationVersion": "1.1.0"
+  }
+}
